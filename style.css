@@ -2,15 +2,18 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-    background-color: rgb(241, 236, 152);
 }
 
                 /* Header & Navbar - Start */
 
 .head-bar{
+    width: 1fr;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
 
 }
 
@@ -122,3 +125,156 @@ nav li a:hover{
 
 
                 /* Hero Area - End */
+
+                /* About Area - Start */ 
+
+.about-sec{
+    width: 1fr;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 95px;
+}
+
+.img-abt{
+    display: flex;
+    height: 400px;
+}
+
+.img-abt img{
+    transform: scale(0.99);
+
+}
+
+
+.about-area{
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about-text span{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.about-text h2{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+.about-text p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgb(131, 133, 132);
+}
+
+.about-btn{
+    margin-top: 13px;
+    padding: 12px 28px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, rgb(131, 144, 254), rgb(99, 189, 253));
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+}
+
+.about-btn:hover{
+    box-shadow: 0 6px 10px gray;
+}
+
+                /* About Area - End */
+
+                /* Offer Section - Start */
+
+.my-offer{
+    width: 1fr;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.my-offer-box{
+    width: 1150px;
+
+}
+
+.offer-head-text{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+
+.offer-head-text h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.offer-head-text p{
+    font-size: 15px;
+    color: rgb(131, 133, 132);
+}
+
+.all-offers{
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.all-offers .box{
+    width: 380px;
+    height: 200px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.all-offers i{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(76, 76, 76);
+}
+
+.all-offers b{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.all-offers .box p{
+    font-size: 15px;
+    color: rgb(131, 133, 132);
+    margin: 0 0 50px 0;
+    line-height: 23px;
+}
+
+.box:hover i, .box:hover b{
+    color: rgb(132, 144, 255);
+}
+
+                /* Offer Section - End */
+
+                /* Number Count - Start */
+
+.nb-bg{
+    width: 1fr;
+    height: 320px;
+    margin-top: 35px;
+    background: linear-gradient(to right, rgb(132, 144, 255), rgb(98, 189, 252));
+
+}
+
+                /* Number Count - End */
