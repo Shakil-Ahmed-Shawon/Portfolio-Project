@@ -393,6 +393,74 @@ nav li a:hover{
     
 }
 
-
-
                 /* Project Menu - End */
+
+                /* Client Menu - Start */
+
+.client-bg{
+    width: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 200px 0 100px 0;
+}
+
+.client-title{
+    width: 1150px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.client-title h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.client-title p{
+    font-size: 15px;
+    color: rgb(131, 133, 132);
+    margin-top: 8px;
+}
+
+.client-rv-bg{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.client-rv-1, .client-rv-2{
+    display: flex;
+}
+
+.rv-img{
+    width: 50px;
+    height: 50px;
+    transform: scale(0.7);
+    margin: 10px 20px 0 0;
+}
+
+.rv-text p{
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: rgb(131, 133, 132);
+}
+
+.rv-text h3{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.rv-text span{
+    font-size: 15px;
+    color: rgb(131, 133, 132);
+}
+
+
+.client-rv-1:hover, .client-rv-2:hover .rv-text h3{
+    color: rgb(132, 144, 255);
+}
+
+                /* Client Menu - End */
