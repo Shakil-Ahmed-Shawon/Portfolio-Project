@@ -464,3 +464,117 @@ nav li a:hover{
 }
 
                 /* Client Menu - End */
+
+                /* Plans Menu - Start */
+
+.plan-bg{
+    width: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plan-title{
+    width: 1150px;
+}
+
+.plan-body{
+    width: 1150px;
+    display: flex;
+
+}
+
+.plan-box{
+    width: 300px;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: sans-serif;
+}
+
+.inside-circle{
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+    border: 30px solid rgb(226, 229, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-circle span{
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.plan-name{
+    margin-bottom: 15px;
+}
+
+.plan-name p, .lines{
+    font-size: 15px;
+    color: rgb(131, 133, 132);
+}
+
+.plan-name h3{
+    margin-bottom: 0;
+}
+
+.plan-name p{
+    margin-top: 8px;
+}
+
+
+.lines p:nth-child(1){
+    width: 260px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid white;
+    margin-bottom: 0;
+    padding-top: 5px;
+    
+}
+
+.lines p:nth-child(2){
+    width: 260px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+.lines p:nth-child(3){
+    width: 260px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+.price{
+    font-size: 25px;
+}
+
+.buy-btn button{
+    padding: 14px 97px;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    display: none;
+}
+
+                /* Plans Menu - End */
