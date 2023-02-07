@@ -404,7 +404,9 @@ nav li a:hover{
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
-    margin: 200px 0 100px 0;
+    margin: 130px 0 100px 0;
+    padding: 100px 0 135px 0;
+    background-color: rgb(249, 249, 255);
 }
 
 .client-title{
@@ -432,6 +434,8 @@ nav li a:hover{
 
 .client-rv-1, .client-rv-2{
     display: flex;
+    background-color: white;
+    padding: 30px;
 }
 
 .rv-img{
@@ -474,10 +478,22 @@ nav li a:hover{
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    margin-bottom: 110px;
 }
 
 .plan-title{
     width: 1150px;
+    font-family: sans-serif;
+    margin-bottom: 65px;
+}
+
+.plan-title h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.plan-title p{
+    color: rgb(131, 133, 132);
 }
 
 .plan-body{
@@ -494,6 +510,7 @@ nav li a:hover{
     align-items: center;
     justify-content: flex-start;
     font-family: sans-serif;
+    background-color: rgb(249, 249, 255);
 }
 
 .inside-circle{
@@ -531,36 +548,36 @@ nav li a:hover{
 
 
 .lines p:nth-child(1){
-    width: 260px;
+    width: 245px;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(233, 231, 231);
     margin-bottom: 0;
     padding-top: 5px;
     
 }
 
 .lines p:nth-child(2){
-    width: 260px;
+    width: 245px;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid rgb(233, 231, 231);
+    border-bottom: 1px solid rgb(233, 231, 231);
     margin: 5px 0;
     padding: 5px 0;
 }
 
 .lines p:nth-child(3){
-    width: 260px;
+    width: 245px;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(233, 231, 231);
     margin-top: 0;
     padding-bottom: 5px;
 }
@@ -577,4 +594,40 @@ nav li a:hover{
     display: none;
 }
 
+.plan-box:hover{
+    background: linear-gradient(to right, rgb(131, 144, 255), rgb(98, 188, 252));
+    color: white;
+    transform: scale(1.08);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+}
+
+.plan-box:hover .price h2{
+    display: none;
+}
+
+.plan-box:hover .buy-btn button{
+    display: inline-block;
+}
+
+.plan-box:hover .lines{
+    color: white;
+}
+
+.plan-box:hover .plan-name p{
+    color: white;
+}
+
+.plan-box:hover .inside-circle{
+    border: 30px solid rgb(226, 229, 255, 0.5);
+}
+
                 /* Plans Menu - End */
+
+                /* Blog Section - Start */
+
+
+
+                /* Blog Section - End */
