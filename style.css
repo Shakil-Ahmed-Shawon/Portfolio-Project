@@ -511,6 +511,9 @@ nav li a:hover{
     justify-content: flex-start;
     font-family: sans-serif;
     background-color: rgb(249, 249, 255);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
 .inside-circle{
@@ -598,10 +601,7 @@ nav li a:hover{
     background: linear-gradient(to right, rgb(131, 144, 255), rgb(98, 188, 252));
     color: white;
     transform: scale(1.08);
-    transition-property: all;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-
+    z-index: 5;
 }
 
 .plan-box:hover .price h2{
@@ -627,6 +627,106 @@ nav li a:hover{
                 /* Plans Menu - End */
 
                 /* Blog Section - Start */
+
+.blog-main-bg{
+    width: 1fr;
+    background-color: rgb(249, 249, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 80px 0 150px 0;
+}
+
+.blog-menu-title{
+    width: 1150px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.blog-menu-title h2{
+    font-size: 40px;
+}
+
+.blog-menu-title p{
+    color: rgb(131, 133, 132);
+}
+
+.blogs-bg{
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog-box{
+    width: 360px;
+}
+
+.blog-img{
+    width: 360px;
+    height: 214px;
+    overflow: hidden;
+}
+
+.blog-img img{
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.blog-info-1 img{
+    width: 30px;
+    height: 30px;
+}
+
+hr{
+    opacity: 0.3;
+}
+
+.blog-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+    font-size: 15px;
+}
+
+.blog-info-1{
+    display: flex;
+    align-items: center;
+}
+
+.blog-info-1 span{
+    margin: 0 10px;
+}
+
+.blog-info-2{
+    color: rgb(131, 133, 132);
+}
+
+.blog-info-2 i{
+    margin-left: 10px;
+}
+
+.caption-body h3{
+    font-size: 18px;
+}
+
+.caption-body p{
+    font-size: 16px;
+    line-height: 22px;
+    color: rgb(131, 133, 132);
+}
+
+.blog-box:hover .caption-body h3{
+    color: rgb(132, 144, 255);
+}
+
+.blog-box:hover .blog-img img{
+    transform: scale(1.1);
+}
 
 
 
