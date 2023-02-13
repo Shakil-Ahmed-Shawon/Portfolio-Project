@@ -934,3 +934,34 @@ form{
 }
 
                 /* Footer Section - End */
+
+
+
+
+
+
+
+
+                /* Responsive with Media - Start */
+
+
+
+    /* For Laptop - Start */
+
+@media (min-width: 1270px) and (max-width: 1350px){
+    .navbar .main-ul .p-li:nth-child(6):hover .sub-ul-1{
+        right: 240px;
+        
+    }
+
+    .navbar .main-ul .p-li:nth-child(7):hover .sub-ul-2{
+        right: 155px;
+    }
+
+}
+
+    /* For Laptop - End */
+
+
+
+                /* Responsive with Media - End */
