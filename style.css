@@ -962,7 +962,7 @@ form{
 
     /* For Phone - Start */
 
-@media (min-width: 365px) and (max-width: 390px){
+@media (min-width: 365px) and (max-width: 725px){
 
     body{
         width: 1fr;
