@@ -328,7 +328,6 @@ nav li a:hover{
 .all-offers{
     width: 1150px;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .all-offers .box{
@@ -454,7 +453,6 @@ nav li a:hover{
     width: 1150px;
     height: 900px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -961,6 +959,224 @@ form{
 }
 
     /* For Laptop - End */
+
+    /* For Phone - Start */
+
+@media (min-width: 375px) and (max-width: 385px){
+
+    body{
+        width: 1fr;
+    }
+
+
+        /* Header & Navbar - Start */
+
+    .logo{
+        position: absolute;
+        left: 20px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+            /* Header & Navbar - End */
+
+            /* Hero Area - Start */
+
+    .hero-area-bg{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-area{
+        width: 90%;
+        height: 630px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .hero-text span{
+        font-size: 15px;
+    }
+
+    .hero-text h1{
+        font-size: 30px;
+    }
+
+    .hero-text p{
+        font-size: 15px;
+    }
+
+    .hero-image{
+        transform: scale(0.5);
+        position: absolute;
+        top: 210px;
+        right: -25%;
+        margin-top: 30px;
+    }
+    
+        /* Hero Area - End */
+
+        /* About Area - Start */
+
+    .about-sec{
+        width: 1fr;
+        height: 615px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .about-area{
+        width: 90%;
+        height: 615px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img-abt{
+        width: 347px;
+        height: 246px;
+        padding-bottom: 25px;
+
+    }
+
+    .img-abt img{
+        width: 347px;
+        height: 246px;
+    }
+
+    .about-text h2{
+        font-size: 19px;
+        padding-top: 10px;
+    }
+
+    .about-text p{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+        /* About Area - End */
+
+        /* Offer Section - Start */
+
+    .my-offer{
+        width: 1fr;
+        height: 1575px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+    }
+
+    .my-offer-box{
+        width: 90%;
+        height: 1575px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .offer-head-text{
+        height: 130px;
+    }
+
+    .all-offers{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+        /* Offer Section - End */
+
+        /* Number Count - Start */
+
+    .nb-bg{
+        padding: 120px 0;
+        width: 1fr;
+        height: fit-content;
+    }
+
+    .nb-box{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        /* Number Count - End */
+
+        /* Project Menu - Start */
+
+    .proj-bg{
+        width: 1fr;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .proj-title, .proj-catt ul{
+        width: 90%;
+    }
+
+    .proj-bg-main{
+        width: 90%;
+        height: 2550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        /* Project Menu - End */
+
+        /* Client Menu - Start */
+
+    .client-bg{
+        width: 1fr;
+    }
+
+    .client-title{
+        width: 90%;
+    }
+
+    .client-rv-bg{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .client-rv-1, .client-rv-2{
+        width: 75%;
+    }
+
+    
+
+        /* Client Menu - End */
+
+
+}
+
+    /* For Phone - End */
 
 
 
