@@ -966,6 +966,7 @@ form{
 
     body{
         width: 1fr;
+        overflow-x: hidden;
     }
 
 
@@ -1172,6 +1173,86 @@ form{
     
 
         /* Client Menu - End */
+
+        /* Plans Menu - Start */
+
+    .plan-bg{
+        width: 1fr;
+        height: fit-content;
+    }
+
+    .plan-title{
+        width: 90%;
+    }
+
+    .plan-body{
+        width: 90%;
+        height: 2250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        /* Plans Menu - End */
+
+        /* Blog Section - Start */
+
+    .blog-menu-title{
+        width: 90%;
+    }
+
+    .blogs-bg{
+        width: 90%;
+        height: 1450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .blog-box{
+        width: 100%;
+    }
+
+    .blog-img, .blog-img img{
+        width: 325.8px;
+    }
+
+     /* Blog Section - End */
+
+     /* Brand Section - Start */
+
+    .brand-main-bg{
+        width: 1fr;
+    }
+
+    .brand-bg{
+        width: 100%;
+    }
+
+     /* Brand Section - End */
+
+     /* Footer Section - Start */
+
+    .footer-bg{
+        width: 90%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 20px 0 50px 0;
+    }
+
+    .news form .emal{
+        width: 250px;
+    }
+
+
+
+     /* Footer Section - End */
 
 
 }
