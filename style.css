@@ -164,6 +164,14 @@ nav li a:hover{
     display: none;
 }
 
+#cbox{
+    display: none;
+}
+
+.navbar-ph{
+    display: none;
+}
+
                 /* Header & Navbar - End */
 
                 /* Hero Area - Start */
@@ -998,10 +1006,13 @@ form{
 
     .fa-bars{
         display: block;
-
     }
 
-    .fa-bars:active .navbar-ph{
+    #cbox{
+        display: none;
+    }
+
+    #cbox:checked ~ .navbar-ph{
         display: block;
     }
     
